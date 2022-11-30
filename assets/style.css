@@ -32,13 +32,35 @@ ul {
     font-size: 18px;
 }
 
+li {
+    margin: 3px;
+}
+
 p {
     text-align: center;
     font-size: 30px;
-  }
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 15px;
+}
 
 code {
     font-size: 14px;
+    background-color: #f5f2f0;
+    color: red;
+    padding: 1px 3px;
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+    box-shadow: 3px 1px 3px 0px lightgrey;
 }
 
 .card {
@@ -57,5 +79,9 @@ code {
   *::before,
   *::after {
     box-sizing: inherit;
-  } Suggested by the box model document on MDN web docs.  Why can't we just place the box-sizing attribute in *? */
+  } Suggested by the box model document on MDN web docs.  Why can't we just place the box-sizing attribute in *? 
+  
+  https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+  
+  */
   
